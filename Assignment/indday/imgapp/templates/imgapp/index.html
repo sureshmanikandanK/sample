@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block page_title %}{{section_name}}{% endblock %}
+{% block content %}
+    <div id="section1" class="section">
+        <h1>{{ section_name }}</h1>
+        <p>Content for the first section.</p>
+    </div>
+    <div id="section2" class="section">
+        <p>Content for the second section.</p>
+        {% include 'includes/cards.html' %}
+    </div>
+    <div id="section3" class="section">
+        <p>Content for the third section.</p>
+    </div>
+{% endblock %}
