@@ -80,7 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'cardsmanagement',
-        'PORT': '3306',
+        'PORT': '3333',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
